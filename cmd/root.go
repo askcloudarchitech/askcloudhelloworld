@@ -26,7 +26,7 @@ var rootCmd = &cobra.Command{
 			return
 		}
 		if flagVal {
-			fmt.Println("Hello World Alternative!")
+			fmt.Println("I like these words better!")
 			return
 		}
 		fmt.Println("Hello World!")
