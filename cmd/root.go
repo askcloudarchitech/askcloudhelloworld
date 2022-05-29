@@ -26,7 +26,8 @@ var rootCmd = &cobra.Command{
 			return
 		}
 		if flagVal {
-			fmt.Println("I like these words better!")
+			fmt.Println("I like words and stuff")
+			//https://stackoverflow.com/questions/53879154/println-vs-printf-vs-print-in-go
 			return
 		}
 		fmt.Println("Hello World!")
